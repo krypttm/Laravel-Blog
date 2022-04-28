@@ -13,12 +13,8 @@ class StaticController extends Controller {
 
 
     public function about() {
-        $data = array(
-            'title' => 'Страница про нас',
-            'params' => ['BMW', 'Audi', 'Volvo']
-        );
-
-        return view('static.about')->with($data);
+   
+        return view('static.about');
     }
 
 }
